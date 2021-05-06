@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    color:white;
+    font-size: 15px;
+    letter-spacing: 2px;;
+
+}
+img{
+    border-radius: 3px;
+}
+.profile-pic{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    height: auto;
+    max-width: 200px;
+}
+.profile-name{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+}
+.links{
+    text-align: center;margin-top: 20px;padding: 20px;
+    border:1px solid white;
+    width: 490px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 20px;
+}
+a{
+    text-decoration: none;
+    color:white;
+    transition: color 1s;
+}
+a:hover{
+    color:#000;
+    background-color: blanchedalmond;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
